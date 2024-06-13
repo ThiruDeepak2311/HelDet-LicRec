@@ -1,1 +1,1 @@
-## I developed a computer vision system designed to enhance road safety by detecting helmets on riders and extracting license plate information from vehicles. This project aimed to improve traffic monitoring and enforcement through automated image analysis.
+#### I developed a computer vision system designed to enhance road safety by detecting helmets on riders and extracting license plate information from vehicles. This project aimed to improve traffic monitoring and enforcement through automated image analysis.
