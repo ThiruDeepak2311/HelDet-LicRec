@@ -41,43 +41,6 @@ pytesseract>=0.3.8
 numpy>=1.19.0
 ```
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/helmet-license-detection.git
-cd helmet-license-detection
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Download the pre-trained model:
-```bash
-python scripts/download_model.py
-```
-
-## Usage
-
-### Basic Usage
-```python
-from helmet_detection import DetectionSystem
-
-# Initialize the system
-detector = DetectionSystem(
-    model_path='models/ssd_mobilenet_v2.pb',
-    confidence_threshold=0.85
-)
-
-# Process single image
-results = detector.process_image('path/to/image.jpg')
-
-# Process video stream
-detector.process_video_stream('rtsp://camera_stream_url')
-```
-
 ### Advanced Configuration
 ```python
 # Custom threading configuration
